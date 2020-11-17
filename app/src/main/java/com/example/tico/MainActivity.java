@@ -89,6 +89,24 @@ public class MainActivity extends AppCompatActivity {
         textView.setLayoutParams(params);
         llMain.addView(textView);
 
+        /* @Qitian
+        Not sure if I'm adding this code to the right place but this is how you add stuff to the
+        recycler view
+         */
+        RecyclerView recyclerView  = findViewById(R.id.my_recycler_view);
+        ArrayList<DataModel> data = new ArrayList<>();
+
+        for (String name: info.keySet()) {
+            Bundle officialInfo = info.getBundle(name);
+            data.add(new DataModel(
+                    officialInfo.getString("office"),
+                    name,
+                    officialInfo.getString("photoUrl"),
+                    officialInfo.getString("party")
+            ));
+        }
+        RecyclerView.Adapter adapter = new CustomAdapter(data, this, this);
+        recyclerView.setAdapter(adapter);
 
 
         fusedLocationProviderClient = LocationServices.getFusedLocationProviderClient(this);
