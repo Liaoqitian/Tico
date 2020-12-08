@@ -3,12 +3,8 @@ package com.example.tico;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
-import android.graphics.drawable.ClipDrawable;
-import android.graphics.drawable.Drawable;
-import android.graphics.drawable.LayerDrawable;
 import android.os.Build;
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -139,9 +135,8 @@ public class RestaurantAdapter extends RecyclerView.Adapter<RestaurantAdapter.Vi
         translate(authStampText, "authentic");
         nameTv.setText(restaurant.getName());
         String photoURL = restaurant.getPhotoURL();
-        if (photoURL.length() != 0) {
+        if (photoURL.length() != 0)
             Picasso.get().load(photoURL).resize(200, 0).centerCrop().into(photoIv);
-        }
         photoIv.setContentDescription(restaurant.getName());
         photoIv.setOnClickListener(new View.OnClickListener() {
             @Override
