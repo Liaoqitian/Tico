@@ -3,9 +3,7 @@
 ## Table of Contents
 - [Project Description](#Project-Description)
 - [Teasers](#Teasers)
-- [User Manual (Video)](#User-Manual-Video)
-- [User Manual (Text and Images)](#User-Manual-Text-and-Images)
-- [User Experience Interviews]
+- [Promotional Video](#Promotional-Video)
 - [Contributors](#Contributors)
 
 
@@ -16,10 +14,8 @@ Many first generation immigrants are always on the lookout for authentic restaur
 <img src = "images/tico.png"> 
 <img src = "images/tico2.png">
 
-## User Manual Video 
-
-
-## User Manual (Text and Images)
+## Promotional Video
+[![Watch the video](images/food.png)](https://www.youtube.com/watch?v=EjNcG3aCmRc)
 
 
 ## Contributors  
