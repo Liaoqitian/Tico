@@ -14,10 +14,6 @@ Many first generation immigrants are always on the lookout for authentic restaur
 <img src = "images/tico.png"> 
 <img src = "images/tico2.png">
 
-## Promotional Video
-[![Watch the video](images/front.png)](https://www.youtube.com/watch?v=EjNcG3aCmRc)
-
-
 ## Contributors  
 - Qitian Liao
 - Stephanie Ortiz-Sevilla
