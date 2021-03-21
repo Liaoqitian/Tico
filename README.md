@@ -1,7 +1,7 @@
 # Tico 
 
 ## Table of Contents
-- [Project Description](#Project-Description)
+- [Project Description](#App-Background)
 - [Teasers](#Teasers)
 - [Promotional Video](#Promotional-Video)
 - [Contributors](#Contributors)
